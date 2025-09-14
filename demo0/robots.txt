@@ -1,0 +1,26 @@
+# Robots.txt for Fitness Website
+User-agent: *
+Allow: /
+
+# Block admin area
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+
+# Allow search engines to access CSS and JS
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/uploads/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl-delay (optional - in seconds)
+Crawl-delay: 1
+
+# Block specific bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
